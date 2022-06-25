@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>剧本杀推荐系统</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+  <script type="text/javascript" src="./eel.js"></script>
+  <script src="https://cdn.bootcss.com/vue/2.5.21/vue.js"></script>
+  <script src="https://cdn.bootcss.com/element-ui/2.4.11/index.js"></script>
+  <link href="https://cdn.bootcss.com/element-ui/2.4.11/theme-chalk/index.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
+  <link rel="stylesheet" href="./iconfont.css">
+  <style>
+    h3 {
+      margin-block-start: 0;
+      margin-block-end: 0;
+      margin: 0.25rem;
+      color: gray;
+      font-weight: 350;
+      font-size: 1rem;
+    }
+
+    .max-content {
+      width: -webkit-max-content;
+      width: -moz-max-content;
+      width: max-content;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app" class="avenir">
+    <h1 class="tc">剧本杀推荐系统</h1>
+
+    <div class="flex flex-auto justify-center">
+      <div class="max-content pa2 br b--moon-gray">
+        <h2>筛选</h2>
+        <div>
+          <h3>难度</h3>
+          <el-radio-group v-model="difficulty">
+            <el-radio label="Random">任何</el-radio>
+            <el-radio label="VeryEasy">新手</el-radio>
+            <el-radio label="Easy">偏易</el-radio>
+            <el-radio label="VeryMedium">进阶</el-radio>
+            <el-radio label="Medium">偏难</el-radio>
+            <el-radio label="Difficult">烧脑</el-radio>
+
+          </el-radio-group>
+        </div>
+        <div>
+          <h3>游戏时长</h3>
+          <el-radio-group v-model="duration">
+            <el-radio label="Random">任何</el-radio>
+            <el-radio label="Short">较短</el-radio>
+            <el-radio label="Medium">正常</el-radio>
+            <el-radio label="Long">较长</el-radio>
+            <el-radio label="VeryLong">很长</el-radio>
+
+          </el-radio-group>
+        </div>
+        <div>
+            <h3>人数</h3>
+            <el-rate v-model="numberofplayer" :icon-classes="['iconfont icon-ali-people-on','iconfont icon-ali-people-on','iconfont icon-ali-people-on']"
+              void-icon-class="iconfont icon-ali-people-off" :max=20 show-score>
+            </el-rate>
+          </div>
+
+        <div>
+          <h3>题材</h3>
+          <el-checkbox-group v-model="element">
+            <el-checkbox label="1">恐怖</el-checkbox>
+            <el-checkbox label="2">感情</el-checkbox>
+            <el-checkbox label="3">欢乐</el-checkbox>
+            <el-checkbox label="4">阵营</el-checkbox>
+            <el-checkbox label="5">机制</el-checkbox>
+            <el-checkbox label="6">武侠</el-checkbox>
+            <br/>
+            <el-checkbox label="7">仙侠</el-checkbox>
+            <el-checkbox label="8">谍战</el-checkbox>
+            <el-checkbox label="9">推理</el-checkbox>
+            <el-checkbox label="10">魔幻</el-checkbox>
+            <el-checkbox label="11">玄幻</el-checkbox>
+            <el-checkbox label="12">校园</el-checkbox>
+            <br/>
+            <el-checkbox label="13">立意</el-checkbox>
+            </el-checkbox-group>
+        </div>
+        <div>
+          <h3>背景</h3>
+          <el-checkbox-group v-model="element">
+            <el-checkbox label="14">古风</el-checkbox>
+            <el-checkbox label="15">民国</el-checkbox>
+            <el-checkbox label="16">现代</el-checkbox>
+            <el-checkbox label="17">科幻</el-checkbox>
+            <el-checkbox label="18">欧式</el-checkbox>
+            <el-checkbox label="19">日式</el-checkbox>
+            <br/>
+            <el-checkbox label="20">架空</el-checkbox>
+            </el-checkbox-group>
+        </div>
+        <div>
+          <h3>规格</h3>
+          <el-checkbox-group v-model="element">
+            <el-checkbox label="21">盒装</el-checkbox>
+            <el-checkbox label="22">城限</el-checkbox>
+            <el-checkbox label="23">独家</el-checkbox>
+            </el-checkbox-group>
+        </div>
+        <div>
+          <h3>类型</h3>
+          <el-checkbox-group v-model="element">
+            <el-checkbox label="24">本格</el-checkbox>
+            <el-checkbox label="25">变格</el-checkbox>
+            <el-checkbox label="26">还原</el-checkbox>
+            <el-checkbox label="27">封闭</el-checkbox>
+            <el-checkbox label="28">半封闭</el-checkbox>
+            <el-checkbox label="29">开放</el-checkbox>
+            <br/>
+            <el-checkbox label="30">新本格</el-checkbox>
+            </el-checkbox-group>
+        </div>
+        <el-button type="primary" class="mt3 pv2 ph3 center" @click="handleClick">submit</el-button>
+      </div>
+      <div class="flex flex-column items-center ml3">
+        <h2>专家推荐</h2>
+        <h3 class="pv2" v-if="name !== 'default'">{{name}}</h3>
+        <img width="512":src="imageSrc">
+        <pre>{{ message }}</pre>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var app = new Vue({ 
+      el: '#app',
+      methods: {
+        handleClick() {
+          var { difficulty,duration,numberofplayer,element } = this
+          submitData(difficulty,duration,numberofplayer,element)
+        }
+      },
+      data: {
+        difficulty: 'Any',
+        duration: 'Any',
+        numberofplayer: 1,
+        element: [],
+        imageSrc: '/image/default.jpg',
+        name: '来根据你的需求定制专属剧本杀吧！',
+        message: '',
+        title:'none'
+      },
+    })
+    function submitData(difficulty,duration,numberofplayer,element) {
+      eel.receiveData(difficulty,duration,numberofplayer,element)
+    }
+    eel.expose(receiveImg)
+    function receiveImg(TableGame, message,name) {
+      var img = '/image/' + TableGame + '.jpg'
+      console.log(img)
+      app.imageSrc = img
+      app.name = name
+      app.message = message
+    }
+  </script>
+
+</body>
+
+</html>

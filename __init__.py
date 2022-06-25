@@ -1,0 +1,2 @@
+import  RuleInterpreter
+RuleInterpreter.init()

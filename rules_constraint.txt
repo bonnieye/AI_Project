@@ -1,0 +1,1185 @@
+IF 6-Role
+AND LongT
+AND MediumD
+Then 1-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 2-enable
+
+IF 8-Role
+AND MediumT
+AND MediumD
+Then 3-enable
+
+IF 7-Role
+AND MediumT
+AND MediumD
+Then 4-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 5-enable
+
+IF 6-Role
+AND LongT
+AND DifficultD
+Then 6-enable
+
+IF 6-Role
+AND LongT
+AND MediumD
+Then 7-enable
+
+IF 7-Role
+AND MediumT
+AND MediumD
+Then 8-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 9-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 10-enable
+
+IF 5-Role
+AND LongLongT
+AND DifficultD
+Then 11-enable
+
+IF 6-Role
+AND LongT
+AND MediumD
+Then 12-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 13-enable
+
+IF 6-Role
+AND LongT
+AND MediumD
+Then 14-enable
+
+IF 5-Role
+AND MediumT
+AND MediumD
+Then 15-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 16-enable
+
+IF 5-Role
+AND LongT
+AND DifficultD
+Then 17-enable
+
+IF 6-Role
+AND LongT
+AND EasyD
+Then 18-enable
+
+IF 8-Role
+AND MediumT
+AND EasyD
+Then 19-enable
+
+IF 6-Role
+AND LongT
+AND MediumD
+Then 20-enable
+
+IF 4-Role
+AND MediumT
+AND MediumD
+Then 21-enable
+
+IF 7-Role
+AND MediumT
+AND MediumD
+Then 22-enable
+
+IF 6-Role
+AND LongT
+AND MediumD
+Then 23-enable
+
+IF 7-Role
+AND LongT
+AND DifficultD
+Then 24-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 25-enable
+
+IF 7-Role
+AND LongT
+AND EasyD
+Then 26-enable
+
+IF 5-Role
+AND MediumT
+AND MediumD
+Then 27-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 28-enable
+
+IF 8-Role
+AND LongT
+AND MediumD
+Then 29-enable
+
+IF 5-Role
+AND MediumT
+AND MediumD
+Then 30-enable
+
+IF 8-Role
+AND MediumT
+AND MediumD
+Then 31-enable
+
+IF 6-Role
+AND MediumT
+AND EasyD
+Then 32-enable
+
+IF 6-Role
+AND LongT
+AND EasyD
+Then 33-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 34-enable
+
+IF 6-Role
+AND LongT
+AND MediumD
+Then 35-enable
+
+IF 12-Role
+AND LongT
+AND MediumD
+Then 36-enable
+
+IF 6-Role
+AND LongT
+AND DifficultD
+Then 37-enable
+
+IF 6-Role
+AND LongT
+AND MediumD
+Then 38-enable
+
+IF 5-Role
+AND MediumT
+AND DifficultD
+Then 39-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 40-enable
+
+IF 5-Role
+AND MediumT
+AND MediumD
+Then 41-enable
+
+IF 6-Role
+AND LongT
+AND DifficultD
+Then 42-enable
+
+IF 6-Role
+AND LongT
+AND MediumD
+Then 43-enable
+
+IF 6-Role
+AND LongT
+AND DifficultD
+Then 44-enable
+
+IF 7-Role
+AND MediumT
+AND EasyD
+Then 45-enable
+
+IF 5-Role
+AND MediumT
+AND MediumD
+Then 46-enable
+
+IF 8-Role
+AND LongT
+AND MediumD
+Then 47-enable
+
+IF 7-Role
+AND MediumT
+AND MediumD
+Then 48-enable
+
+IF 5-Role
+AND LongT
+AND DifficultD
+Then 49-enable
+
+IF 6-Role
+AND LongT
+AND DifficultD
+Then 50-enable
+
+IF 1-10-Role
+AND MediumT
+AND DifficultD
+Then 51-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 52-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 53-enable
+
+IF 8-Role
+AND MediumT
+AND MediumD
+Then 54-enable
+
+IF 6-Role
+AND LongT
+AND DifficultD
+Then 55-enable
+
+IF 8-Role
+AND MediumT
+AND MediumD
+Then 56-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 57-enable
+
+IF 8-Role
+AND LongLongT
+AND MediumD
+Then 58-enable
+
+IF 9-Role
+AND MediumT
+AND MediumD
+Then 59-enable
+
+IF 6-Role
+AND LongT
+AND DifficultD
+Then 60-enable
+
+IF 7-Role
+AND MediumT
+AND MediumD
+Then 61-enable
+
+IF 7-Role
+AND MediumT
+AND MediumD
+Then 62-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 63-enable
+
+IF 8-Role
+AND MediumT
+AND MediumD
+Then 64-enable
+
+IF 7-Role
+AND MediumT
+AND MediumD
+Then 65-enable
+
+IF 6-Role
+AND LongT
+AND MediumD
+Then 66-enable
+
+IF 6-Role
+AND MediumT
+AND EasyD
+Then 67-enable
+
+IF 6-Role
+AND MediumT
+AND EasyD
+Then 68-enable
+
+IF 7-Role
+AND MediumT
+AND MediumD
+Then 69-enable
+
+IF 7-Role
+AND LongT
+AND EasyD
+Then 70-enable
+
+IF 5-Role
+AND MediumT
+AND DifficultD
+Then 71-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 72-enable
+
+IF 7-Role
+AND MediumT
+AND MediumD
+Then 73-enable
+
+IF 7-Role
+AND MediumT
+AND MediumD
+Then 74-enable
+
+IF 6-Role
+AND LongT
+AND DifficultD
+Then 75-enable
+
+IF 8-Role
+AND LongT
+AND DifficultD
+Then 76-enable
+
+IF 5-Role
+AND MediumT
+AND DifficultD
+Then 77-enable
+
+IF 8-Role
+AND LongT
+AND DifficultD
+Then 78-enable
+
+IF 6-Role
+AND LongT
+AND MediumD
+Then 79-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 80-enable
+
+IF 5-Role
+AND LongT
+AND MediumD
+Then 81-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 82-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 83-enable
+
+IF 6-Role
+AND MediumT
+AND EasyD
+Then 84-enable
+
+IF 6-Role
+AND LongT
+AND MediumD
+Then 85-enable
+
+IF 6-Role
+AND LongT
+AND MediumD
+Then 86-enable
+
+IF 6-Role
+AND LongT
+AND MediumD
+Then 87-enable
+
+IF 8-Role
+AND LongT
+AND MediumD
+Then 88-enable
+
+IF 7-Role
+AND MediumT
+AND MediumD
+Then 89-enable
+
+IF 5-Role
+AND LongT
+AND MediumD
+Then 90-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 91-enable
+
+IF 6-Role
+AND MediumT
+AND EasyD
+Then 92-enable
+
+IF 8-Role
+AND MediumT
+AND MediumD
+Then 93-enable
+
+IF 5-Role
+AND MediumT
+AND MediumD
+Then 94-enable
+
+IF 5-Role
+AND ShortT
+AND MediumD
+Then 95-enable
+
+IF 6-Role
+AND LongT
+AND EasyD
+Then 96-enable
+
+IF 6-Role
+AND MediumT
+AND EasyD
+Then 97-enable
+
+IF 6-Role
+AND LongT
+AND MediumD
+Then 98-enable
+
+IF 7-Role
+AND LongT
+AND MediumD
+Then 99-enable
+
+IF 8-Role
+AND MediumT
+AND MediumD
+Then 100-enable
+
+IF 7-Role
+AND LongT
+AND DifficultD
+Then 101-enable
+
+IF 8-Role
+AND LongLongT
+AND MediumD
+Then 102-enable
+
+IF 7-Role
+AND LongT
+AND MediumD
+Then 103-enable
+
+IF 5-Role
+AND LongT
+AND MediumD
+Then 104-enable
+
+IF 7-Role
+AND MediumT
+AND EasyD
+Then 105-enable
+
+IF 5-Role
+AND MediumT
+AND DifficultD
+Then 106-enable
+
+IF 5-Role
+AND MediumT
+AND EasyD
+Then 107-enable
+
+IF 6-Role
+AND LongT
+AND DifficultD
+Then 108-enable
+
+IF 6-Role
+AND LongT
+AND MediumD
+Then 109-enable
+
+IF 5-Role
+AND MediumT
+AND MediumD
+Then 110-enable
+
+IF 6-Role
+AND MediumT
+AND EasyD
+Then 111-enable
+
+IF 8-Role
+AND MediumT
+AND MediumD
+Then 112-enable
+
+IF 7-Role
+AND LongT
+AND MediumD
+Then 113-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 114-enable
+
+IF 8-Role
+AND MediumT
+AND MediumD
+Then 115-enable
+
+IF 5-Role
+AND LongT
+AND MediumD
+Then 116-enable
+
+IF 6-Role
+AND MediumT
+AND EasyD
+Then 117-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 118-enable
+
+IF 6-Role
+AND MediumT
+AND EasyD
+Then 119-enable
+
+IF 6-Role
+AND LongT
+AND MediumD
+Then 120-enable
+
+IF 7-Role
+AND MediumT
+AND EasyD
+Then 121-enable
+
+IF 5-Role
+AND MediumT
+AND MediumD
+Then 122-enable
+
+IF 6-Role
+AND LongT
+AND EasyD
+Then 123-enable
+
+IF 7-Role
+AND MediumT
+AND MediumD
+Then 124-enable
+
+IF 6-Role
+AND MediumT
+AND MediumD
+Then 125-enable
+
+IF 7-Role
+AND LongT
+AND DifficultD
+Then 126-enable
+
+IF 6-Role
+AND MediumT
+AND DifficultD
+Then 127-enable
+
+IF 6-Role
+AND MediumT
+AND EasyD
+Then 128-enable
+
+IF 6-Role
+AND LongT
+AND MediumD
+Then 129-enable
+
+IF 7-Role
+AND LongT
+AND MediumD
+Then 130-enable
+
+IF 6-Role
+AND LongT
+AND MediumD
+Then 131-enable
+
+IF 5-Role
+AND LongT
+AND DifficultD
+Then 132-enable
+
+IF 8-Role
+AND LongT
+AND MediumD
+Then 133-enable
+
+IF 4-Role
+AND MediumT
+AND MediumD
+Then 134-enable
+
+IF 4-Role
+AND MediumT
+AND EasyD
+Then 135-enable
+
+IF 4-Role
+AND ShortT
+AND EasyD
+Then 136-enable
+
+IF 4-Role
+AND ShortT
+AND EasyD
+Then 137-enable
+
+IF 4-Role
+AND MediumT
+AND MediumD
+Then 138-enable
+
+IF 4-Role
+AND ShortT
+AND EasyD
+Then 139-enable
+
+IF 4-Role
+AND MediumT
+AND MediumD
+Then 140-enable
+
+IF 4-Role
+AND MediumT
+AND MediumD
+Then 141-enable
+
+IF 4-Role
+AND MediumT
+AND EasyD
+Then 142-enable
+
+IF 4-Role
+AND MediumT
+AND DifficultD
+Then 143-enable
+
+IF 4-Role
+AND MediumT
+AND EasyD
+Then 144-enable
+
+IF 4-Role
+AND MediumT
+AND EasyD
+Then 145-enable
+
+IF 4-Role
+AND MediumT
+AND EasyD
+Then 146-enable
+
+IF 4-Role
+AND MediumT
+AND MediumD
+Then 147-enable
+
+IF 4-Role
+AND MediumT
+AND MediumD
+Then 148-enable
+
+IF 4-8-Role
+AND LongLongT
+AND EasyD
+Then 149-enable
+
+IF 7-10-Role
+AND MediumT
+AND EasyD
+Then 150-enable
+
+IF 5-20-Role
+AND MediumT
+AND EasyD
+Then 151-enable
+
+IF 7-Role
+AND MediumT
+AND MediumD
+Then 152-enable
+
+IF 7-Role
+AND MediumT
+AND MediumD
+Then 153-enable
+
+IF 7-Role
+AND LongT
+AND EasyD
+Then 154-enable
+
+IF 7-Role
+AND LongT
+AND MediumD
+Then 155-enable
+
+IF 7-Role
+AND LongT
+AND MediumD
+Then 156-enable
+
+IF 7-Role
+AND LongT
+AND DifficultD
+Then 157-enable
+
+IF 7-Role
+AND MediumT
+AND EasyD
+Then 158-enable
+
+IF 7-Role
+AND MediumT
+AND MediumD
+Then 159-enable
+
+IF 7-Role
+AND LongT
+AND MediumD
+Then 160-enable
+
+IF 7-Role
+AND LongT
+AND MediumD
+Then 161-enable
+
+IF 7-Role
+AND LongT
+AND MediumD
+Then 162-enable
+
+IF 7-Role
+AND MediumT
+AND MediumD
+Then 163-enable
+
+IF 7-Role
+AND ShortT
+AND EasyD
+Then 164-enable
+
+IF 7-Role
+AND MediumT
+AND EasyD
+Then 165-enable
+
+IF 7-Role
+AND LongT
+AND MediumD
+Then 166-enable
+
+IF 7-Role
+AND LongT
+AND MediumD
+Then 167-enable
+
+IF 7-Role
+AND LongT
+AND EasyD
+Then 168-enable
+
+IF 7-Role
+AND LongT
+AND DifficultD
+Then 169-enable
+
+IF 8-Role
+AND MediumT
+AND MediumD
+Then 170-enable
+
+IF 8-Role
+AND LongT
+AND MediumD
+Then 171-enable
+
+IF 8-Role
+AND LongT
+AND MediumD
+Then 172-enable
+
+IF 8-9-Role
+AND MediumT
+AND MediumD
+Then 173-enable
+
+IF 8-Role
+AND MediumT
+AND EasyD
+Then 174-enable
+
+IF 8-Role
+AND LongT
+AND MediumD
+Then 175-enable
+
+IF 8-Role
+AND LongT
+AND MediumD
+Then 176-enable
+
+IF 8-Role
+AND MediumT
+AND MediumD
+Then 177-enable
+
+IF 8-Role
+AND MediumT
+AND MediumD
+Then 178-enable
+
+IF 8-Role
+AND MediumT
+AND MediumD
+Then 179-enable
+
+IF 8-Role
+AND LongT
+AND MediumD
+Then 180-enable
+
+IF 8-Role
+AND LongT
+AND MediumD
+Then 181-enable
+
+IF 6-10-Role
+AND LongT
+AND DifficultD
+Then 182-enable
+
+IF 8-Role
+AND MediumT
+AND MediumD
+Then 183-enable
+
+IF 8-Role
+AND LongT
+AND MediumD
+Then 184-enable
+
+IF 8-Role
+AND MediumT
+AND EasyD
+Then 185-enable
+
+IF 8-Role
+AND MediumT
+AND MediumD
+Then 186-enable
+
+IF 8-Role
+AND LongT
+AND MediumD
+Then 187-enable
+
+IF 9-Role
+AND MediumT
+AND MediumD
+Then 188-enable
+
+IF 9-Role
+AND MediumT
+AND MediumD
+Then 189-enable
+
+IF 9-Role
+AND MediumT
+AND MediumD
+Then 190-enable
+
+IF 9-Role
+AND MediumT
+AND MediumD
+Then 191-enable
+
+IF 9-Role
+AND ShortT
+AND DifficultD
+Then 192-enable
+
+IF 9-Role
+AND MediumT
+AND EasyD
+Then 193-enable
+
+IF 7-9-Role
+AND MediumT
+AND EasyD
+Then 194-enable
+
+IF 9-Role
+AND MediumT
+AND MediumD
+Then 195-enable
+
+IF 9-Role
+AND MediumT
+AND MediumD
+Then 196-enable
+
+IF 9-Role
+AND MediumT
+AND EasyD
+Then 197-enable
+
+IF 9-Role
+AND ShortT
+AND EasyD
+Then 198-enable
+
+IF 8-10-Role
+AND MediumT
+AND EasyD
+Then 199-enable
+
+IF 9-Role
+AND LongT
+AND MediumD
+Then 200-enable
+
+IF 9-Role
+AND MediumT
+AND EasyD
+Then 201-enable
+
+IF 10-Role
+AND MediumT
+AND MediumD
+Then 202-enable
+
+IF 10-Role
+AND MediumT
+AND MediumD
+Then 203-enable
+
+IF 10-Role
+AND MediumT
+AND MediumD
+Then 204-enable
+
+IF 10-Role
+AND MediumT
+AND MediumD
+Then 205-enable
+
+IF 10-Role
+AND MediumT
+AND MediumD
+Then 206-enable
+
+IF 10-Role
+AND MediumT
+AND EasyD
+Then 207-enable
+
+IF 10-Role
+AND MediumT
+AND MediumD
+Then 208-enable
+
+IF 10-Role
+AND LongT
+AND EasyD
+Then 209-enable
+
+IF 10-Role
+AND MediumT
+AND MediumD
+Then 210-enable
+
+IF 10-Role
+AND LongT
+AND MediumD
+Then 211-enable
+
+IF 10-Role
+AND MediumT
+AND EasyD
+Then 212-enable
+
+IF 10-Role
+AND MediumT
+AND MediumD
+Then 213-enable
+
+IF 10-Role
+AND MediumT
+AND EasyD
+Then 214-enable
+
+IF 10-Role
+AND LongT
+AND MediumD
+Then 215-enable
+
+IF 10-Role
+AND MediumT
+AND EasyD
+Then 216-enable
+
+IF 8-10-Role
+AND LongT
+AND DifficultD
+Then 217-enable
+
+IF 6-15-Role
+AND MediumT
+AND DifficultD
+Then 218-enable
+
+IF 10-Role
+AND MediumT
+AND MediumD
+Then 219-enable
+
+IF 10-Role
+AND MediumT
+AND EasyD
+Then 220-enable
+
+IF 10-Role
+AND ShortT
+AND MediumD
+Then 221-enable
+
+IF 10-Role
+AND MediumT
+AND MediumD
+Then 222-enable
+
+IF 11-Role
+AND MediumT
+AND EasyD
+Then 223-enable
+
+IF 11-Role
+AND LongT
+AND MediumD
+Then 224-enable
+
+IF 11-Role
+AND LongT
+AND MediumD
+Then 225-enable
+
+IF 11-Role
+AND MediumT
+AND DifficultD
+Then 226-enable
+
+IF 12-Role
+AND LongT
+AND DifficultD
+Then 227-enable
+
+IF 13-Role
+AND MediumT
+AND EasyD
+Then 228-enable
+
+IF 12-Role
+AND MediumT
+AND EasyD
+Then 229-enable
+
+IF 12-Role
+AND MediumT
+AND MediumD
+Then 230-enable
+
+IF 12-Role
+AND MediumT
+AND DifficultD
+Then 231-enable
+
+IF 12-Role
+AND MediumT
+AND MediumD
+Then 232-enable
+
+IF 20-Role
+AND MediumT
+AND EasyD
+Then 233-enable
+
+IF 12-Role
+AND MediumT
+AND MediumD
+Then 234-enable
+
+IF 16-Role
+AND MediumT
+AND MediumD
+Then 235-enable
+
+IF 14-20-Role
+AND MediumT
+AND EasyD
+Then 236-enable
+
+IF 12-Role
+AND LongT
+AND MediumD
+Then 237-enable
+
